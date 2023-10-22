@@ -1,3 +1,5 @@
+error_numbers_only = "It should be a number"
+
 while True:
     value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \n Q 'to Quit' \n Your answer: ").upper()
     if "1234Q".find(value_operator) == -1:
@@ -6,8 +8,18 @@ while True:
     if value_operator == "Q":
         break
 
-    value_int_1 = int(input("Please type a number: "))
-    value_int_2 = int(input("Please type another number: "))
+    try:
+        value_int_1 = int(input("Please type a number: "))
+    except ValueError:
+        print(error_numbers_only)
+        value_int_1 = int(input("Please type a number: "))
+
+    try:
+        value_int_2 = int(input("Please type another number: "))
+    except ValueError:
+        print(error_numbers_only)
+        value_int_2 = int(input("Please type another number: "))
+
     if value_int_2 == 0 and value_operator == "4":
         print("Can't divide by zero")
         continue
