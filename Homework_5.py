@@ -35,3 +35,26 @@
 #print(words)
 
 #3
+#не зрозуміла яке має бути дано
+
+#4
+
+
+
+my_str_4 = "hello! help yourself so you can help others. you are a hero."
+
+h_ind_first = my_str_4.find("h")
+h_ind_last = my_str_4.rfind("h")
+
+#або порахувати
+#h_ind_all = my_str_4.count("h")
+
+print(h_ind_first)
+print(h_ind_last)
+#print(h_ind_all)
+
+# або написати підняти всі h і тільки перший і останній знову поміняти на маленькі.
+
+# Або можна зробити через вайл луп. Шукає індекс h, якщо знайшло то шукає дальше
+# індекс вказуємо попередній +1 звідки шукати наступну h , і так поки буде, якщо не буде то там елс і виходить брейк
+#
