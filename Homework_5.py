@@ -35,7 +35,16 @@
 #print(words)
 
 #3
-#не зрозуміла яке має бути дано
+
+#s = "Just start doing smth."
+#ch = -1
+
+#while True:
+#    ch = s.find("t", ch+1)
+#    if ch == -1:
+#        break
+#    print(ch)
+
 
 #4
 
