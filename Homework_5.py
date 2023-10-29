@@ -39,22 +39,19 @@
 
 #4
 
+#my_str_4 = "hello! help yourself so you can help others. you are a hero."
 
+#h_ind_first = my_str_4.find("h")
+#h_ind_last = my_str_4.rfind("h")
 
-my_str_4 = "hello! help yourself so you can help others. you are a hero."
+#print(h_ind_first)
+#print(h_ind_last)
 
-h_ind_first = my_str_4.find("h")
-h_ind_last = my_str_4.rfind("h")
+#my_str_4_1h = my_str_4[0:1]
+#my_str_4_2h = my_str_4[55: ]
+#my_str_4_m = my_str_4[1:55]
 
-#або порахувати
-#h_ind_all = my_str_4.count("h")
+#my_str_4_mh = my_str_4_m.replace("h" , "H")
 
-print(h_ind_first)
-print(h_ind_last)
-#print(h_ind_all)
-
-# або написати підняти всі h і тільки перший і останній знову поміняти на маленькі.
-
-# Або можна зробити через вайл луп. Шукає індекс h, якщо знайшло то шукає дальше
-# індекс вказуємо попередній +1 звідки шукати наступну h , і так поки буде, якщо не буде то там елс і виходить брейк
-#
+#my_str_4_final = my_str_4_1h + my_str_4_mh + my_str_4_2h
+#print(my_str_4_final)
