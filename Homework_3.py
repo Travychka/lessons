@@ -1,5 +1,8 @@
 #1
 
+new_value = 80
+
+print(new_value/2) if new_value < 100 else print(-new_value)
 
 #2
 
